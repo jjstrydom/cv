@@ -39,18 +39,12 @@ Strategic data leader with over a decade of experience in driving data innovatio
 - Engineered a real-time data pipeline for the Haraka mobile loan product, significantly reducing operating costs and improving response time.
 - Developed anti-fraud ML features, anomily detection, graph-algorithms which combined eliminated losses due to fraud and opportunism by ~R1m per month.
 
-### Senior Systems Engineer
-*CSIR | Jan 2014 - May 2018*
-
-- Led the design of a reactive radar jammer and was instrumental in strategy focus groups and international business negotiations.
-
-### Data Analyst (Digital Signals)
+### Data Analyst (Digital Signals) & Systems Engineer
 *CSIR | Jan 2010 - May 2018*
 
+- Led the design of a reactive radar jammer and was instrumental in strategy focus groups and international business negotiations.
 - Developed and implemented advanced hardware in the loop radar environemnt test and evaluation systems and conducted in the field big-data collectoin and analysis excersises.
-
-## Achievements & Leadership:
-
+- Senior team member contributing to the strategic focus of the busniess group (~50 individuals) and the technology innovation team of the competency area (~100 individuals)
 - Published 9 IEEE conference papers; received the IEEE outstanding paper award in 2017.
 - Honored with the Emerging Researcher Award in 2016 within a 400+ business unit.
 - Supervised 3 Masters degree students.
