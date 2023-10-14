@@ -2,7 +2,7 @@
 
 **Professional Summary:**
 
-Strategic data leader with over a decade of experience in driving data innovation across fintech, consulting, and electronic warfare sectors. Specializes in leading cross-functional teams, scaling data-driven platforms, and championing business growth through actionable insights. Proven expertise in data science, analytics, R&D, and cloud computing. Holds an M.Eng. from the University of Cape Town.
+Strategic data leader with over a decade of experience in driving data innovation across fintech, consulting, and electronic warfare sectors. Specializes in leading cross-functional teams, scaling data-driven platforms, and championing business growth through actionable insights. Proven expertise in data science, data analytics, digital signal processing, R&D, and cloud computing. Holds an M.Eng. from the University of Cape Town.
 
 ## Key Achievements:
 
@@ -15,26 +15,29 @@ Strategic data leader with over a decade of experience in driving data innovatio
 ### Senior Team Lead (Data Science)
 *Advance Guidance | May 2023 - Present*
 
-- Pioneered innovative techniques to harness business value from customer data.
-- Spearheaded forecasting initiatives for major US consulting and South African Health Tech firms.
+- Pioneered innovative techniques to generate IP from customer data through experimentaton and Generative AI.
+- Streamlined and sped up Data Analytics execution accross projects with a common shared toolset and approach.
+- Spearheaded initiatives and managing relationships with their executives and senior management teams for a major US consulting firm (big four) and a South African Health Tech firm.
 
 ### Head of Analytics
 *Jumo.world | Jun 2021 - Apr 2023*
 
-- Championed a fintech lending platform to bring financial inclusion across Africa.
-- Managed the analytics function, streamlining data-driven decision-making across departments.
+- Managed the analytics function, spearhedding data-driven decision-making across departments and multiple african territories (Ghana, Kenya, Tanzania, Uganda, Zambia) within the guardrails of all relevant regulatory and comliance requirements.
+- Launched an internal cross functional innovation think tank to develop new markets and solve problems creatively based on proven processes. 
 - Implemented experimental designs for product improvement and facilitated company-wide learning through a comprehensive searchable insights platform.
 
 ### Portfolio Analytics Team Lead
 *Jumo.world | Jun 2019 - May 2021*
 
 - Enabled data-driven decisions for portfolio and asset managers, providing statistical confidence to solutions.
+- Introduced behavioural analytics, connecting how clients behave and react to product dynamics to customer lifetime value. 
 - Led a team of Data Scientists in enhancing technical quality and R&D outcomes.
 
 ### Senior Data Scientist
 *MyBucks | Jun 2018 - May 2019*
 
 - Engineered a real-time data pipeline for the Haraka mobile loan product, significantly reducing operating costs and improving response time.
+- Developed anti-fraud ML features, anomily detection, graph-algorithms which combined eliminated losses due to fraud and opportunism by ~R1m per month.
 
 ### Senior Systems Engineer
 *CSIR | Jan 2014 - May 2018*
@@ -44,7 +47,7 @@ Strategic data leader with over a decade of experience in driving data innovatio
 ### Data Analyst (Digital Signals)
 *CSIR | Jan 2010 - May 2018*
 
-- Developed and implemented advanced radar subsystems and conducted large-scale field data analysis.
+- Developed and implemented advanced hardware in the loop radar environemnt test and evaluation systems and conducted in the field big-data collectoin and analysis excersises.
 
 ## Achievements & Leadership:
 
