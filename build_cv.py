@@ -27,10 +27,15 @@ postfix = """\
 
 soup = BeautifulSoup(prefix + html + postfix, features="html.parser")
 
-wrap = soup.new_tag('div', **{"id": "hd"})
-wrapper = soup.new_tag('div', **{"class": "yui-gc"})
-wrapper2 = soup.new_tag('div', **{"class": "yui-u first"})
-soup.find('h1').wrap(wrapper2).wrap(wrapper).wrap(wrap)
+def multi_wrap(element, wrappers: list):
+    for wrapper in wrappers:
+        element.wrap(wrapper)
+
+multi_wrap(soup.find('h1'),[
+    soup.new_tag('div', **{"id": "hd"}),
+    soup.new_tag('div', **{"class": "yui-gc"}),
+    soup.new_tag('div', **{"class": "yui-u first"}),
+])
 
 with open("cv.html","w") as html_file:
     html_file.write(soup.prettify())
