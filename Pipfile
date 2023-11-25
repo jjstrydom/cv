@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 markdown2 = "*"
 beautifulsoup4 = "*"
+jinja2 = "*"
 
 [dev-packages]
 
