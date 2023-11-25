@@ -1,4 +1,5 @@
 import markdown2 as markdown
+from bs4 import BeautifulSoup
 
 with open("cv.md","r") as md_file:
     md_str = md_file.read()
@@ -32,5 +33,7 @@ postfix = """\
 </html>
 """
 
+soup = BeautifulSoup(prefix + html + postfix, features="html.parser")
+
 with open("cv.html","w") as html_file:
-    html_file.write(prefix + html + postfix)
+    html_file.write(soup.prettify())
