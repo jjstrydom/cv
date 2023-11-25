@@ -1,6 +1,7 @@
 # Jurgen Strydom
 
-**Professional Summary:**
+- **phone**: +27 84 888 7890
+- **email**: jurgen.strydom@gmail.com
 
 Strategic data leader with over a decade of experience in driving data innovation across fintech, consulting, and electronic warfare sectors. Specializes in leading cross-functional teams, scaling data-driven platforms, and championing business growth through actionable insights. Proven expertise in data science, data analytics, digital signal processing, R&D, and cloud computing. Holds an M.Eng. from the University of Cape Town.
 
