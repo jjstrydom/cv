@@ -1,2 +1,2 @@
 default:
-	python -m markdown2 cv.md > cv.html
+	python build_cv.py cv.md cv.html
