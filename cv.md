@@ -8,13 +8,13 @@ Data Scientist, Team Lead
 
 Strategic data leader with a decade and a half of experience in driving data innovation across fintech, consulting, and electronic warfare sectors. Specializes in leading cross-functional teams, scaling data platforms, and championing business growth through actionable insights. Proven expertise in data science, data analytics, digital signal processing, R&D, and experimentation.
 
-## Key Achievements:
+## Key Achievements
 
 - Drove analytics vision to scale a big data function operating over billions of events, serving millions of monthly active users.
 - Developed revenue and resource demand forecasting for a top US consulting firm, optimizing department operations.
 - Identified and halted a fraud ring, saving over R1m per month.
 
-## Experience:
+## Experience
 
 ### Senior Team Lead (Data Science)
 *Advance Guidance | May 2023 - Present*
@@ -53,9 +53,9 @@ Strategic data leader with a decade and a half of experience in driving data inn
 - Honored with the Emerging Researcher Award in 2016 within a 400+ business unit.
 - Supervised 3 Masters degree students.
 
-## Education:
+## Education
 
-- **Design Thinking and Innovation** | *Harvard Business School Online | Jan 2022 - Mar 2022*
-- **Data Science Nanodegree** | *Udacity | Jan 2020 - Jan 2021*
-- **M.Eng., Electronic Engineering (Radar & Electronic Defence)** | *University of Cape Town | Jan 2011 - Nov 2012*
-- **B.Eng., Electronic Engineering** | *University of Pretoria | Jan 2004 - Nov 2009*
+- **Harvard Business School Online** | Design Thinking and Innovation | Jan 2022 - Mar 2022
+- **Udacity** | Data Science Nanodegree | Jan 2020 - Jan 2021
+- **University of Cape Town** | M.Eng., Electronic Engineering (Radar & Electronic Defence) | Jan 2011 - Nov 2012
+- **University of Pretoria** | B.Eng., Electronic Engineering | Jan 2004 - Nov 2009
