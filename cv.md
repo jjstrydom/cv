@@ -57,5 +57,5 @@ Strategic data leader with a decade and a half of experience in driving data inn
 
 - **Harvard Business School Online** | Design Thinking and Innovation | Jan 2022 - Mar 2022
 - **Udacity** | Data Science Nanodegree | Jan 2020 - Jan 2021
-- **University of Cape Town** | M.Eng., Electronic Engineering (Radar & Electronic Defence) | Jan 2011 - Nov 2012
-- **University of Pretoria** | B.Eng., Electronic Engineering | Jan 2004 - Nov 2009
+- **University of Cape Town** | M.Eng, Electronic Engineering (Radar & EW) | Jan 2011 - Nov 2012
+- **University of Pretoria** | B.Eng, Electronic Engineering | Jan 2004 - Nov 2009
