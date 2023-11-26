@@ -1,5 +1,10 @@
 import markdown2 as markdown
 from bs4 import BeautifulSoup
+import jinja2
+
+template_dir = './templates'
+loader = jinja2.FileSystemLoader(template_dir)
+environment = jinja2.Environment(loader=loader)
 
 with open("cv.md","r") as md_file:
     md_str = md_file.read()
@@ -20,6 +25,8 @@ def split_segments(elements: list[BeautifulSoup], segment_break_tags:list=["h1",
 
 segments = split_segments(soup.find_all())
 
+template = environment.get_template("srt-resume.html")
+html_output = template.render(the="variables", go="here")
 
 with open("cv.html","w") as html_file:
-    html_file.write(soup.prettify())
+    html_file.write(html_output)
