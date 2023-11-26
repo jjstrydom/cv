@@ -1,12 +1,18 @@
 import markdown2 as markdown
 from bs4 import BeautifulSoup
 import jinja2
+import argparse
+
+parser = argparse.ArgumentParser(description="Convert md to html CV")
+parser.add_argument('in_file', type=str, nargs='?', default='cv.md', help='the input file name')
+parser.add_argument('out_file', type=str, nargs='?', default='cv.html', help='the output file name')
+args = parser.parse_args()
 
 template_dir = './templates'
 loader = jinja2.FileSystemLoader(template_dir)
 environment = jinja2.Environment(loader=loader)
 
-with open("cv.md","r") as md_file:
+with open(args.in_file,"r") as md_file:
     md_str = md_file.read()
     html = markdown.markdown(md_str)
 
@@ -61,8 +67,6 @@ def extract_exp(elements):
     seg = split_segments(elements, ["h3"])
     return [extract_contents_exp(s) for s in seg]
 
-test = extract_exp(segments[3][1:])
-
 kwargs = {
     'name': segments[0][0].text,
     'title': segments[0][1].text,
@@ -80,5 +84,5 @@ kwargs = {
 template = environment.get_template("srt-resume.html")
 html_output = template.render(**kwargs)
 
-with open("cv.html","w") as html_file:
+with open(args.out_file, "w") as html_file:
     html_file.write(html_output)
