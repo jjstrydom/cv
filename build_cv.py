@@ -69,7 +69,7 @@ kwargs = {
     'contacts': extract_contents_string_list(segments[0][2],'li'),
     'profile_heading': segments[1][0].text,
     'profile_text': segments[1][1].text,
-    'achievement_heading': segments[2][0].text,
+    'achievements_heading': segments[2][0].text,
     'achievements_text': [s.text for s in segments[2][1].find_all('li')],
     'experience_heading': segments[3][0].text,
     'experience_text': extract_exp(segments[3][1:]),
