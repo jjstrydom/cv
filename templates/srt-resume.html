@@ -89,7 +89,7 @@
 							{% for education in education_text %}
 							<div class={% if not loop.last %}"job"{% else %}"job last"{% endif %}>
 								<h2>{{ education["quali"] }}</h2>
-								<h3>{{ education["school"] }}</h3>
+								<p>{{ education["school"] }}</p>
 								<h4>{{ education["time"] }}</h4>
 							</div>
 							{% endfor %}

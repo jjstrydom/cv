@@ -2,6 +2,7 @@ import markdown2 as markdown
 from bs4 import BeautifulSoup
 import jinja2
 import argparse
+import pdfkit
 
 parser = argparse.ArgumentParser(description="Convert md to html CV")
 parser.add_argument('in_file', type=str, nargs='?', default='cv.md', help='the input file name')
@@ -84,5 +85,22 @@ kwargs = {
 template = environment.get_template("srt-resume.html")
 html_output = template.render(**kwargs)
 
-with open(args.out_file, "w") as html_file:
-    html_file.write(html_output)
+if args.out_file.endswith(".html"):
+    with open(args.out_file, "w") as html_file:
+        html_file.write(html_output)
+elif args.out_file.endswith(".pdf"):
+    options = {
+        'page-size': 'A4',
+        'margin-top': '0.75in',
+        'margin-right': '0.75in',
+        'margin-bottom': '0.75in',
+        'margin-left': '0.75in',
+        'encoding': "UTF-8",
+        'custom-header': [
+            ('Accept-Encoding', 'gzip'),
+        ],
+        'no-outline': None,
+    }
+    pdfkit.from_string(html_output, 'out.pdf', options=options)
+else:
+    raise ValueError("Output file name must end with .html")

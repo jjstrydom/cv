@@ -1,5 +1,5 @@
 # Jurgen Strydom
-Data Scientist, Team Lead
+Team Lead, Data Scientist, Innovator
 
 - **phone**: +27 84 888 7890
 - **email**: jurgen.strydom@gmail.com
@@ -12,7 +12,7 @@ Strategic data leader with a decade and a half of experience in driving data inn
 
 - Drove analytics vision to scale a big data function operating over billions of events, serving millions of monthly active users.
 - Developed revenue and resource demand forecasting for a top US consulting firm, optimizing department operations.
-- Identified and halted a fraud ring, saving over R1m per month.
+- Identified and halted a fraud ring, within the first 2 weeks of joining the company, halting losses of over R1m+ per month.
 
 ## Experience
 
@@ -44,7 +44,7 @@ Strategic data leader with a decade and a half of experience in driving data inn
 - Developed anti-fraud ML features, anomily detection, graph-algorithms which combined eliminated losses due to fraud and opportunism by ~R1m per month.
 
 ### Data Analyst (Digital Signals) & Systems Engineer
-*CSIR | Jan 2010 - May 2018*
+*CSIR | Jan 2009 - May 2018*
 
 - Led the design of a reactive radar jammer and was instrumental in strategy focus groups and international business negotiations.
 - Developed and implemented advanced hardware in the loop radar environemnt test and evaluation systems and conducted in the field big-data collectoin and analysis excersises.
